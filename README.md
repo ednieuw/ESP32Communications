@@ -4,9 +4,9 @@ The sketch is developed on a Arduino Nano ESP32 which is a ESP32-S3
 
 This is the basic sketch for a ESP32 connected with an LDR, a rotary or three button membrane switch and a DS3231 RTC-module. The last is for use when no WIFI is available and a accurate time in needed
 
-The program can be controlled with a BLE serial teminal program on your PC, tablet ot phone or with a HTML page.
-An a software-enabled access point is created on your WIFI  to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.
-This is also possible with the BLE serial terminal or the serial monitor of your IDE
+The program can be controlled with a BLE serial terminal program on your PC, tablet ot phone or with a HTML page.
+Asoftware-enabled access point is created on your WIFI  to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.
+This is also possible with the BLE serial terminal app or the serial monitor of your IDE
 
 With an Over the air (OTA) connection .bin updates can be loaded.
 

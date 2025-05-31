@@ -49,3 +49,6 @@ Web page started
 WIFI started
 31/05/2025 15:55:31
 ```
+The software can be used on this PCB:[small PCB](https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock/tree/main/PCB-small) but it can also be connected via the Arduino pins directly.
+
+![V02 Small Nano ESP32-3D](https://github.com/user-attachments/assets/6a37ebcb-5f9a-473c-9b27-9e47973a8ea1)

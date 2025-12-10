@@ -1,17 +1,19 @@
 # ESP32 Communications template
-A template sketch to connect WIFI get NTP, WPS, OTA, SoftAP, DNS, HTML & BLE UART menu.
+A template sketch to connect WIFI, get NTP, WPS, OTA, SoftAP, DNS, HTML & BLE UART menu.
 The sketch is developed on a Arduino Nano ESP32 which is a ESP32-S3
 
-This is the basic sketch for a ESP32 connected with an LDR, a rotary or three button membrane switch and a DS3231 RTC-module. The last is for use when no WIFI is available and a accurate time in needed
+This is the basic sketch for a ESP32 connected with an LDR, a rotary, or three button membrane switch, or remote controler and a DS3231 RTC-module. The last is for use when no WIFI is available and a accurate time in needed
 
 The program can be controlled with a BLE serial terminal program on your PC, tablet or phone or with a HTML page.
 A software-enabled access point is created on your WIFI router to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.
 This is also possible with the [BLE serial terminal](https://ednieuw.home.xs4all.nl/BLESerial/IOSappMain.html) app or the serial monitor of your IDE.
+An HTML page can also show the responses printed to the serial monitor and BLE serial terminal.
 
-With an Over the air (OTA) connection .bin updates can be loaded.
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/960cc1ec-c4db-4e78-b8f7-7657d71cef14" />
+
+With an Over the air (OTA) connection .bin updates can be loaded. 
 
 The Bluetooth name of the device is also shown in your router. 
-![menu in a browser](https://github.com/user-attachments/assets/3f36f63e-41ea-4e3b-8fa6-faf5a0c125ef)
 
 Start up logging in the Arduino IDE Serial monitor
 ```

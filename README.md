@@ -1,23 +1,29 @@
 # ESP32 Communications template
-A template sketch to connect WIFI, get NTP, WPS, OTA, SoftAP, DNS, HTML & BLE UART menu, HTML page menu, HTML serial monitor and control with IR-remote control, rotary encoder or kepad.
+A template sketch to connect WIFI, get NTP, WPS, OTA, SoftAP, DNS, HTML & BLE UART menu, HTML page menu, HTML serial monitor and control with IR-remote control, rotary encoder or keypad and WS2812 RGB or SK6812 RGBW LED strips.
 The sketch is developed on a Arduino Nano ESP32 which is a ESP32-S3.
 
-This is the basic sketch for a ESP32 connected with an LDR, a rotary, or three button membrane switch, or IR-remote controler and a DS3231 RTC-module. The last is for use when no WIFI is available and an accurate time in needed.
+This is a basic sketch for a ESP32 connected with an LDR, a rotary, or three button membrane switch, or IR-remote controler and a DS3231 RTC-module. The DS3231 is for use when no WIFI is available and an accurate time in needed.
 
-The sketch is a spin-off from the Arduino Nano ESP32 word clock. This sketch has been stripped from the word clock specifics and can be use for all kind of developments where input and output is needed.
+The sketch is a spin-off from the Arduino Nano ESP32 word clock. This sketch has been stripped from the word clock specifics and can be used for all kind of developments where WIFI , BLE, Serial input and output is needed.
 
-Two Fritzing PCB designs, that can be ordered for less than €10 [can be ordered from PCBway](https://www.pcbway.com))
+With a small or a larger Fritzing PCB design, PCB's [can be ordered from PCBway](https://www.pcbway.com) for less than €10. They are designed for an Arduino Nano ESP32. 
 
-The program can be controlled with a BLE serial terminal program on your PC, tablet or phone or with a HTML page.
-A software-enabled access point is created on your WIFI router to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.
-This is also possible with the [BLE serial terminal](https://ednieuw.home.xs4all.nl/BLESerial/IOSappMain.html) app or the serial monitor of your IDE.
-An HTML page can also show the responses printed to the serial monitor and BLE serial terminal.
+The microcontroller can be controlled with 
+- a BLE serial terminal program on your PC like the serial monitor of the Arduino IDE,
+- a tablet or phone with a serial terminal app like: [BLE serial terminal](https://ednieuw.home.xs4all.nl/BLESerial/IOSappMain.html) or
+- with a HTML page.
+
+A software-enabled access point is created on your browser that can be accessed with the url: http://169.4.1.1 to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.
+
+There is also a WPS method that can be started with option Z in the menu.
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/960cc1ec-c4db-4e78-b8f7-7657d71cef14" />
 
-With an Over the air (OTA) connection .bin updates can be loaded. 
+With an Over the air (OTA) connection .bin software updates can be loaded. 
 
-The Bluetooth name of the device is also shown in your router. 
+An unique Bluetooth station name given to the device in the menu of the device is also shown in your router.
+
+Settings are stored permanently in the ESP32.
 
 Start up logging in the Arduino IDE Serial monitor
 ```

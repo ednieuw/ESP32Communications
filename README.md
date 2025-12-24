@@ -4,7 +4,9 @@ The sketch is developed on a Arduino Nano ESP32 which is a ESP32-S3.
 
 This is the basic sketch for a ESP32 connected with an LDR, a rotary, or three button membrane switch, or IR-remote controler and a DS3231 RTC-module. The last is for use when no WIFI is available and an accurate time in needed.
 
-The sketch is a spin-off from the Arduino Nano ESP32 word clock. This sketch has been stripped from the word clock specifics and can be use for all kind of developments where input and output is needed.  
+The sketch is a spin-off from the Arduino Nano ESP32 word clock. This sketch has been stripped from the word clock specifics and can be use for all kind of developments where input and output is needed.
+
+Two Fritzing PCB designs, that can be ordered for less than €10 [can be ordered from PCBway](pcbway.com)
 
 The program can be controlled with a BLE serial terminal program on your PC, tablet or phone or with a HTML page.
 A software-enabled access point is created on your WIFI router to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.

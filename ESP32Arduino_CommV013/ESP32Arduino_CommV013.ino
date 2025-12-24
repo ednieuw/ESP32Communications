@@ -488,13 +488,11 @@ void Every100mSecCheck(void)
 //-------------------------------------------- 
 void EveryMinuteUpdate(void)
 {   
-static byte NoConnectionCounter = 0;  
-lastminute = timeinfo.tm_min;  
- CheckRestoreWIFIconnectivity();                                                              // Check if WIFI is still connected and if not restore it
+ lastminute = timeinfo.tm_min;  
  if (IR_PowerOnstate && ((millis() - IR_StartTime) > 290000) ) ToggleIRpower();               // Turn off Power after 300 seconds 
  GetTijd(false);
- Displaytime();  
- DimLeds(true);   
+ Displaytime();                                                                               // If Mem.TimeMinute == 0 the time (controlled in ColorLeds()
+ DimLeds(!Mem.TimeMinute);                                                                    // and DimLEDs are used to print the time every minute
  if(timeinfo.tm_hour != lasthour) EveryHourUpdate(); 
 }
 //--------------------------------------------                                                //

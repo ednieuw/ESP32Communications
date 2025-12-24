@@ -1,4 +1,4 @@
-# ESP32 Communications template
+# ESP32 Communications template (Readme is in progress)
 A template sketch to connect WIFI, get NTP, WPS, OTA, SoftAP, DNS, HTML & BLE UART menu, HTML page menu, HTML serial monitor and control with IR-remote control, rotary encoder or keypad and WS2812 RGB or SK6812 RGBW LED strips.
 The sketch is developed on a Arduino Nano ESP32 which is a ESP32-S3.
 

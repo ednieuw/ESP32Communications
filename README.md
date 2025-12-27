@@ -62,6 +62,7 @@ WIFI started
 31/05/2025 15:55:31
 ```
 The software can be used on this PCB:[small PCB](https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock) in the folder PCB. <br>
-But it can also be connected via the Arduino pins directly.
+Fritzing design with Gerber files in this respority.  
+Five PCB's [can be ordered from **PCBway**](https://www.pcbway.com) for ~25€ / $. 
 
 ![V02 Small Nano ESP32-3D](https://github.com/user-attachments/assets/6a37ebcb-5f9a-473c-9b27-9e47973a8ea1)

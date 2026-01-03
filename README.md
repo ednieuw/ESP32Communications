@@ -93,6 +93,12 @@ Web page started
 WIFI started
 31/05/2025 15:55:31
 ```
+<<<<<<< HEAD
+=======
+The software can be used on this PCB: [small PCB](https://github.com/ednieuw/ESP32Communications/tree/main/PCBdesigns). <br>
+Fritzing design with Gerber files in this repository.  
+Five PCB's [can be ordered from **PCBway**](https://www.pcbway.com) for ~25€ / $. 
+>>>>>>> c72d9be7281def152df39a8ad47c6aeb1b30f7fd
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/6a37ebcb-5f9a-473c-9b27-9e47973a8ea1"/>
 

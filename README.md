@@ -3,7 +3,7 @@
 (Readme is in progress. See here for complete reference: [Wordclock](https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock) )
 
 A template sketch to:
-- connect to WIFI, 
+- connect to WIFI 
 - get the date and time via NTP 
 - store the time in an optional DS3231 RTC
 - WPS to connect automatically with a router 

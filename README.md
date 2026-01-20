@@ -93,7 +93,7 @@ Web page started
 WIFI started
 31/05/2025 15:55:31
 ```
-<<<<<<< HEAD
+<<<<<<< HERE
 =======
 The software can be used on this PCB: [small PCB](https://github.com/ednieuw/ESP32Communications/tree/main/PCBdesigns). <br>
 Fritzing design with Gerber files in this repository.  

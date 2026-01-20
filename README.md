@@ -47,7 +47,7 @@ There is also a WPS method that can be started with option Z in the menu.
 
 With an Over the air (OTA) connection .bin software updates can be loaded. 
 
-An unique Bluetooth station name given to the device in the menu of the device is also shown in your router.
+An unique Bluetooth station name, given to the device in the menu of the ESP32, is also shown in your router and can be used as an URL, like http://GivenName, to get the menu in a browser. .
 
 Settings are stored permanently in the ESP32.
 

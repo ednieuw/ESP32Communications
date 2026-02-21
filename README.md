@@ -16,6 +16,7 @@ A template sketch to:
 - IR-remote control 
 - rotary encoder or 
 - keypad to control the microcontroller
+- BLE time sender iPhone app that send time and date
 - WS2812 RGB or SK6812 RGBW LED strips.
 The sketch is developed on an Arduino Nano ESP32 which is a ESP32-S3.
 

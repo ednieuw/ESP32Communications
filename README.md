@@ -23,7 +23,7 @@ A template sketch to:
 The sketch is developed on an Arduino Nano ESP32 which is an ESP32-S3.
 
 
-![Small PCB](SmallPCB-V03.jpg)
+![Small PCB](Pics/SmallPCB-V03.jpg)
 This is a basic sketch for a ESP32 connected to:
 - a LDR, 
 - a rotary, 
@@ -33,7 +33,7 @@ This is a basic sketch for a ESP32 connected to:
 
 The sketch is a spin-off from the Arduino Nano ESP32 word clock. This sketch has been stripped from the word clock specifics and can be used for all kind of developments where WIFI, BLE, Serial input and output is needed.
 
-<img width="600" alt="NanoESP32-V04-3D" src="NanoESP32-V04-3D.jpg"/>
+<img width="600" alt="NanoESP32-V04-3D" src="Pics/NanoESP32-V04-3D.jpg"/>
 
 With the small or a larger Fritzing PCB design, in this repository, PCB's [can be ordered from PCBway](https://www.pcbway.com) for less than €10. <br>
 The PCB's are designed for an Arduino Nano ESP32.<br>

@@ -5,22 +5,24 @@
 A template sketch to:
 - connect to WIFI 
 - get the date and time via NTP 
-- store the time in an optional DS3231 RTC
-- WPS to connect automatically with a router 
+- store time in an optional DS3231 RTC
+- WPS to connect automatically to a router 
 - OTA to upgrade the software 
 - SoftAP page to enter credentials instead of using WPS
 - DNS to see the BLE broadcast name given on the TAB of the web page 
-- a HTML web page to use the menu
+- a HTML web page to operate the menu to control the ESP32
+- a log view web page of a few Mb long
 - BLE UART menu to use the menu from a phone, tablet or PC
 - HTML serial monitor to see the serial output
-- IR-remote control 
+- IR-remote control or
 - rotary encoder or 
-- keypad to control the microcontroller
-- BLE time sender iPhone app that sends time and date
+- keypad to control the microcontroller or
+- BLE time sender iPhone app or BLE HTML webpage to send or set time and date
 - a built-in BLE time sender function that sends time and date
 - controls WS2812 RGB or SK6812 RGBW LED strips.
 
-The sketch is developed on an Arduino Nano ESP32 which is an ESP32-S3.
+The sketch is developed on an Arduino Nano ESP32 which is an ESP32-S3.<br>
+The sketch can be used with other ESP32 boards. Change the pin numbers in the sketch for the specific board.
 
 
 ![Small PCB](Pics/SmallPCB-V03.jpg)
@@ -31,7 +33,8 @@ This is a basic sketch for a ESP32 connected to:
 - or IR-remote controler 
 - and a DS3231 RTC-module. The DS3231 is for use when no WIFI is available and an accurate time in needed.
 
-The sketch is a spin-off from the Arduino Nano ESP32 word clock. This sketch has been stripped from the word clock specifics and can be used for all kind of developments where WIFI, BLE, Serial input and output is needed.
+The sketch is a spin-off from the Arduino Nano ESP32 word clock.<br>
+This sketch has been stripped from the word clock specifics and can be used for all kind of developments where WIFI, BLE, Serial input and output is needed.
 
 <img width="600" alt="NanoESP32-V04-3D" src="Pics/NanoESP32-V04-3D.jpg"/>
 
@@ -40,11 +43,11 @@ The PCB's are designed for an Arduino Nano ESP32.<br>
 Fritzing design with Gerber files in this respority. 
 
 The microcontroller can be controlled with 
-- a BLE serial terminal program on your PC like the serial monitor of the Arduino IDE,
+- a BLE serial terminal program on your PC like the serial monitor of the Arduino IDE.
 - a tablet or phone with a serial terminal app like: [BLE serial terminal](https://ednieuw.home.xs4all.nl/BLESerial/IOSappMain.html) or
-- with a HTML page.
+- with a HTML page built in the sketch.
 
-A software-enabled access point is created on your browser that can be accessed with the url: http://169.4.1.1 to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.
+A software-enabled access point is created in a browser that can be accessed with the url: http://169.4.1.1 to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.
 
 There is also a WPS method that can be started with option Z in the menu.
 
@@ -54,7 +57,7 @@ An unique Bluetooth station name, given to the device in the menu of the ESP32, 
 
 Settings are stored permanently in the ESP32.
 
-In Chrome and Edge on w11 it is possible to split a TAB to see the both the menu and the "Log view"
+In some browsers like Chrome and Edge it is possible to split a TAB to see the both the menu and the "Log view"
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/960cc1ec-c4db-4e78-b8f7-7657d71cef14" />
 

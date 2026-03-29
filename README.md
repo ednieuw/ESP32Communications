@@ -44,12 +44,13 @@ Fritzing design with Gerber files in this respority.
 
 The microcontroller can be controlled with 
 - a BLE serial terminal program on your PC like the serial monitor of the Arduino IDE.
+- a BLE serial terminal program in a browser [HTML BLE serial terminal](https://github.com/ednieuw/HTML-BLEserial)
 - a tablet or phone with a serial terminal app like: [BLE serial terminal](https://ednieuw.home.xs4all.nl/BLESerial/IOSappMain.html) or
 - with a HTML page built in the sketch.
 
-A software-enabled access point is created in a browser that can be accessed with the url: http://169.4.1.1 to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.
+A software-enabled access point is created by the ESP32 that can be accessed in a browser with the url: http://169.4.1.1 to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.
 
-There is also a WPS method that can be started with option Z in the menu.
+There is also a WPS method to set up a connection with the router that can be started with option Z in the menu.
 
 With an Over the air (OTA) connection .bin software updates can be loaded. 
 

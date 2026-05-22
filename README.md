@@ -20,6 +20,7 @@ A template sketch to:
 - BLE time sender iPhone app or BLE HTML webpage to send or set time and date
 - a built-in BLE time sender function that sends time and date
 - controls WS2812 RGB or SK6812 RGBW LED strips.
+- Send time with the HC-12 SI4438 Wireless Serial Port Module - 433MHz 
 
 The sketch is developed on an Arduino Nano ESP32 which is an ESP32-S3.<br>
 The sketch can be used with other ESP32 boards. Change the pin numbers in the sketch for the specific board.
@@ -30,7 +31,7 @@ This is a basic sketch for a ESP32 connected to:
 - a LDR, 
 - a rotary, 
 - or keypad, 
-- or IR-remote controler 
+- or IR-remote controller 
 - and a DS3231 RTC-module. The DS3231 is for use when no WIFI is available and an accurate time in needed.
 
 The sketch is a spin-off from the Arduino Nano ESP32 word clock.<br>
@@ -40,12 +41,12 @@ This sketch has been stripped from the word clock specifics and can be used for 
 
 With the small or a larger Fritzing PCB design, in this repository, PCB's [can be ordered from PCBway](https://www.pcbway.com) for less than €10. <br>
 The PCB's are designed for an Arduino Nano ESP32.<br>
-Fritzing design with Gerber files in this respority. 
+Fritzing design with Gerber files in this repository. 
 
 The microcontroller can be controlled with 
 - a BLE serial terminal program on your PC like the serial monitor of the Arduino IDE.
 - a BLE serial terminal program in a browser [HTML BLE serial terminal](https://github.com/ednieuw/HTML-BLEserial)
-- a tablet or phone with a serial terminal app like: [BLE serial terminal](https://ednieuw.nl/BLESerial/IOSappMain.html) or
+- a tablet or phone with a serial terminal app like: [BLE serial terminal](https://ednieuw.home.xs4all.nl/BLESerial/IOSappMain.html) or
 - with a HTML page built in the sketch.
 
 A software-enabled access point is created by the ESP32 that can be accessed in a browser with the url: http://169.4.1.1 to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.

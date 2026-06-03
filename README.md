@@ -101,7 +101,7 @@ Web page started
 WIFI started
 31/05/2025 15:55:31
 ```
-[<<<<<<< more info HERE](https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock)
+[in progress <<<<<<< more info about it workings HERE](https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock)
 =======
 The software can be used on this PCB: [small PCB](https://github.com/ednieuw/ESP32Communications/tree/main/PCBdesigns). <br>
 Fritzing design with Gerber files in this repository.  

@@ -33,8 +33,8 @@
  Changes V027: Comparable with ESP32_WordClockV210
  Changes V028: Added HC-12 Time sender option   
  Changes V029: Special HC-12 version. Added HC-12 Time sender in menu
- Changes V030: -- 
- Changes V031: Ontbrekende pin-definities voor ESP32-S3 DevKitC. Optimised BuildHTML() and Tekstprintlnf & Tekstprintf. CheckMCURestartCounter ->10 min
+ Changes V030: SSID length >3. Special version  
+ Changes V031: SSID length >4 Added pin-definitions for ESP32-S3 DevKitC. Optimised BuildHTML() and Tekstprintlnf & Tekstprintf. CheckMCURestartCounter ->10 min
 
  
 *********************
@@ -426,7 +426,7 @@ struct    EEPROMstorage {                                                       
   int  IntFuture2       = 0;                                                                  // For future use
   byte TimeSender       = 0;                                                                  // 
   byte Ringbufcnt       = 0;                                                                  // Ringbuffer counter ON or OFF
-  byte HC12Time         = 0;                                                                  // For future use
+  byte HC12Time         = 0;                                                                  // Use the HC12 time sender
   byte byteFuture4      = 0;                                                                  // For future use
   byte HetIsWasOff      = 0;                                                                  // Turn On or Off HET IS WAS   
   byte EdSoftLEDSOn     = 0;                                                                  // EdSoft text on/off   

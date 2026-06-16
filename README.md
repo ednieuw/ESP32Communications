@@ -65,7 +65,6 @@ In some browsers like Chrome and Edge it is possible to split a TAB to see the b
 
 Start up logging in the Arduino IDE Serial monitor or start in your browser a web page with like 192.168.178.172 which you can find in the serial monitor or BLE serial terminal app or in your router.
 
-
 ```
 Serial started
 Stored settings loaded

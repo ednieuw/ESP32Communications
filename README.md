@@ -1,6 +1,9 @@
 # ESP32 Communications template
 
-(Readme is in progress. See here for complete reference: [Wordclock](https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock) )
+
+## Version V034 is the last version. I combine this sketch with my [Word and Fibonacci clock sketches](https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock).
+
+See here also for complete reference: [Word clock](https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock) 
 
 A template sketch to:
 - connect to WIFI 

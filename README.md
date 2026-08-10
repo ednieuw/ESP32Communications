@@ -49,7 +49,7 @@ Fritzing design with Gerber files in this repository.
 The microcontroller can be controlled with 
 - a BLE serial terminal program on your PC like the serial monitor of the Arduino IDE.
 - a BLE serial terminal program in a browser [HTML BLE serial terminal](https://github.com/ednieuw/HTML-BLEserial)
-- a tablet or phone with a serial terminal app like: [BLE serial terminal](https://ednieuw.home.xs4all.nl/BLESerial/IOSappMain.html) or
+- a tablet or phone with a serial terminal app like: [BLE serial terminal](https://ednieuw.com/BLESerial/IOSappMain.html) or
 - with a HTML page built in the sketch.
 
 A software-enabled access point is created by the ESP32 that can be accessed in a browser with the url: http://169.4.1.1 to set up and configure the WIFI SSID and password to your router through a smartphone or web browser.
@@ -210,7 +210,7 @@ H05 Turn On/Off the BLE time receiver.<br>
 When enabled, the device listens for time sent by a BLE time sender app running on a nearby phone or PC and uses that to set its clock.<br>
 Compatible senders:
 - HTML BLE time sender (Chrome/Edge): [HTML-BLEserial](https://github.com/ednieuw/HTML-BLEserial)
-- iOS BLE time sender app: [BLEtimeSender](https://ednieuw.nl/BLESerial/BLEtimeSender.html)
+- iOS BLE time sender app: [BLEtimeSender](https://ednieuw.com/BLESerial/BLEtimeSender.html)
 
 ### Q BLE Time sender On/Off
 Toggles the built-in BLE time sender. When On, the ESP32 broadcasts the current time and date over BLE every minute so nearby devices with H05 enabled can sync to it. Turning the time sender On automatically turns the time receiver (H05) Off.
